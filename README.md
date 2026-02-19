@@ -35,7 +35,7 @@
   <img alt="Github Actions" src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
 </div>
 
-## 💭 Collaboration Tools
+### 💭 Collaboration Tools
 <div>
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -48,6 +48,8 @@
 
 ## 🏗 시스템 아키텍처 및 CI/CD
 > **Docker와 GitHub Actions를 활용한 무중단 배포 환경 구축**
+
+
 
 - **Docker 컨테이너화:** 개발과 운영 환경의 일치성을 보장하기 위해 전체 애플리케이션을 Docker 컨테이너로 관리합니다.
 - **CI/CD 자동화:** GitHub Actions를 통해 코드 Push 시 빌드, Docker 이미지 생성, EC2 서버 자동 배포를 수행합니다.
@@ -63,13 +65,18 @@
 - **월간 루틴 트래커:** JPA 연관 관계를 활용하여 일별/월별 달성률 통계를 산출하고 캘린더 색상 변화로 직관적인 히스토리 제공.
 
 ### 2. AI 루틴 추천 서비스 (AI Intelligence)
-- **Google Gemini API 연동:** 사용자의 현재 고민(청결, 식사, 심리 등) 데이터를 분석하여 AI가 최적화된 루틴 리스트를 실시간으로 생성 및 제안.
+- **Google Gemini API 연동:** 사용자의 현재 고민 데이터를 분석하여 AI가 최적화된 루틴 리스트를 실시간으로 생성 및 제안.
 - **Prompt Engineering:** 자취생의 라이프스타일에 특화된 답변을 얻기 위한 정교한 프롬프트 설계.
 
 ### 3. 자취생 커뮤니티 (Community)
 - **소통의 장:** 자취 꿀팁 및 일상 공유를 위한 게시판 시스템(CRUD).
 - **소셜 인터랙션:** 댓글/대댓글 기능 및 게시글 카테고리 필터링 제공.
 - **사용자 보호 시스템:** 건전한 커뮤니티 유지를 위한 게시글 신고 및 악성 유저 차단(Block) 기능.
+
+### 4. 보안 및 인프라 (Auth & Infra)
+- **Social Auth:** OAuth2와 JWT를 결합하여 Kakao/Google 소셜 로그인 구현 및 토큰 기반 인증 체계 구축.
+- **CI/CD Pipeline:** Docker 컨테이너 기반으로 GitHub Actions를 활용해 배포 자동화 구현.
+- **Storage:** Amazon S3를 연동하여 이미지 업로드 및 정적 콘텐츠 배포 최적화.
 
 ---
 
@@ -79,18 +86,7 @@
 [Saraboni 전체 ERD 상세보기](https://www.erdcloud.com/d/fKzAAwTXfPjtWRN5c)
 
 - **정규화된 설계:** 데이터 중복을 최소화하고 무결성을 보장하기 위한 DB 설계 진행.
-- **객체 지향 모델링:** JPA 엔티티와 테이블 간의 효율적인 매핑을 통해 복잡한 비즈니스 로직(나무 성장, 통계 등) 지원.
-
----
-
-## 💭 Collaboration Tools
-<div>
-  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/NOTION-000000?style=for-the-badge&logo=notion&logoColor=white">
-  <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-  <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-</div>
+- **객체 지향 모델링:** JPA 엔티티와 테이블 간의 효율적인 매핑을 통해 복잡한 비즈니스 로직 지원.
 
 ---
 
