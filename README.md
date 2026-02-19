@@ -35,6 +35,15 @@
   <img alt="Github Actions" src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
 </div>
 
+## 💭 Collaboration Tools
+<div>
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/NOTION-000000?style=for-the-badge&logo=notion&logoColor=white">
+  <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</div>
+
 ---
 
 ## 🏗 시스템 아키텍처 및 CI/CD
@@ -74,7 +83,30 @@
 
 ---
 
+## 💭 Collaboration Tools
+<div>
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/NOTION-000000?style=for-the-badge&logo=notion&logoColor=white">
+  <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</div>
+
+---
+
 ## 💁‍♂️ UMC-9th Spring - 살아보니's BE 팀원
-| <img src="https://github.com/KimSungJun-01.png" width="120"/> | <img src="https://github.com/Hyun-ohohoh.png" width="120"/> | <img src="https://github.com/parksooyong03.png" width="120"/> | <img src="https://github.com/weejee12.png" width="120"/> |
-|:---:|:---:|:---:|:---:|
-|[김성준](https://github.com/KimSungJun-01)|[나현오](https://github.com/Hyun-ohohoh)|[박수용](https://github.com/parksooyong03)|[위지수](https://github.com/weejee12)|
+
+<table width="100%">
+  <tr>
+    <td align="center" width="25%"><img src="https://github.com/KimSungJun-01.png" width="120px;" alt=""/></td>
+    <td align="center" width="25%"><img src="https://github.com/Hyun-ohohoh.png" width="120px;" alt=""/></td>
+    <td align="center" width="25%"><img src="https://github.com/parksooyong03.png" width="120px;" alt=""/></td>
+    <td align="center" width="25%"><img src="https://github.com/weejee12.png" width="120px;" alt=""/></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><a href="https://github.com/KimSungJun-01"><b>김성준</b></a></td>
+    <td align="center" width="25%"><a href="https://github.com/Hyun-ohohoh"><b>나현오</b></a></td>
+    <td align="center" width="25%"><a href="https://github.com/parksooyong03"><b>박수용</b></a></td>
+    <td align="center" width="25%"><a href="https://github.com/weejee12"><b>위지수</b></a></td>
+  </tr>
+</table>
