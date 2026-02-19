@@ -1,54 +1,80 @@
-## 🌳 살아보니 - Backend
-UMC 9기 Scorpio지부 프로젝트 '살아보니'의 백엔드 저장소입니다.
+<div align="center">
+  
+<img src="https://github.com/user-attachments/assets/2478bd93-e198-4e98-8303-b65f53b16bc1" width="400"/>
 
-## 🛠 Tech Stack
-
-## 🏗️ Branch Strategy
-
-### 1. 주요 브랜치 운영
-
-- **`main`**: 실제 서비스로 출시될 수 있는 상태의 코드만 관리합니다.
-- **`develop`**: 다음 출시 버전을 개발하는 통합 브랜치입니다. 모든 기능 개발의 시작점이며, **오류가 없는 상태**가 유지되어야 합니다.
-- **`feat`**: 새로운 기능을 개발할 때 사용합니다. 사용자 스토리나 백로그에 정의된 기능 단위로 생성하며, 작업이 완료되면 `develop` 브랜치에 PR(Pull Request)을 보냅니다.
-- **`fix`**: 배포된 버전이나 개발 중인 버전에서 발견된 버그를 수정할 때 사용합니다.
-- **`refac`**: 기능의 변경 없이 코드의 가독성을 높이거나 구조를 개선할 때 사용합니다. (예: 중복 코드 제거, 성능 최적화 등)
-
-### 2. 브랜치 명명 규칙 (Naming Convention)
-
-이슈 번호를 포함하여 어떤 작업인지 명확히 알 수 있도록 구성합니다.
-
-- **형식**: `전략/#이슈번호`
-- **예시**: `feat/#1`, `fix/#12`, `docs/#5`
+</div>
 
 ---
 
-## 🔄 개발 프로세스 (Work Process)
-
-1. **이슈 생성**: 기능을 개발하기 전 GitHub Issues에 작업 내용을 등록하고 이슈 번호를 할당받습니다.
-2. **브랜치 생성**:
-    - 브랜치를 생성하기 전 반드시 `develop` 브랜치를 최신 상태로 **pull** 받습니다.
-    - `develop` 브랜치로부터 `feat/#이슈번호` 브랜치를 생성합니다.
-3. **작업 및 커밋**: 작업 단위별로 컨벤션에 맞춰 커밋을 진행합니다.
-4. **Pull Request (PR)**:
-    - 본인의 브랜치 작업을 마친 후, GitHub에서 `feat/#이슈번호` → `develop`으로 PR을 보냅니다.
-    - 최소 1명 이상의 리뷰어에게 승인을 받은 후 `develop`에 머지합니다.
+## 🌳 프로젝트 개요
+- **프로젝트명:** 살아보니 (Saraboni)
+- **프로젝트 기간:** 2025.12.19 ~ 2026.02.19
+- **프로젝트 형태:** UMC 9th 프로젝트 (Spring Boot Backend)
+- **핵심 가치:** 자취생의 루틴 기록 및 커뮤니티를 통한 일상의 시각화
 
 ---
 
-## 💬 Git 커밋 컨벤션 (Commit Message)
+## ⚙ 기술 스택
 
-커밋 메시지는 작업의 성격을 한눈에 알 수 있도록 아래의 태그를 사용합니다.
+### 🖥 Back-end
+<div>
+  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white">
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+  <img alt="Spring Data JPA" src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img alt="Spring Security" src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+</div>
 
-| **태그** | **설명** |
-| --- | --- |
-| **feat** | 새로운 기능 추가 또는 기존 기능의 요구사항 수정 |
-| **fix** | 버그 수정 |
-| **build** | 빌드 관련 파일 수정 (build.gradle 등) |
-| **chore** | 패키지 매니저 설정, .gitignore 등 기타 환경 설정 수정 |
-| **docs** | 문서 수정 (README, 주석, API 명세 등) |
-| **style** | 코드 로직 변경 없는 스타일 수정 (들여쓰기, 포맷팅 등) |
-| **refactor** | 기능 변화 없이 코드의 가독성이나 구조를 개선 (변수명 변경 등) |
-| **test** | 테스트 코드 추가 및 수정 |
-| **release** | 버전 릴리즈 (버전 태깅이나 배포 관련 커밋) |
+### ☁ Service Infra & CI/CD
+<div>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img alt="Amazon EC2" src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white">
+  <img alt="Amazon RDS" src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white">
+  <img alt="Amazon S3" src="https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white">
+  <img alt="Nginx" src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
+  <img alt="Github Actions" src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
+</div>
 
-## 👥 Backend Team
+---
+
+## 🏗 시스템 아키텍처 및 CI/CD
+> **Docker와 GitHub Actions를 활용한 무중단 배포 환경 구축**
+
+- **Docker 컨테이너화:** 개발과 운영 환경의 일치성을 보장하기 위해 전체 애플리케이션을 Docker 컨테이너로 관리합니다.
+- **CI/CD 자동화:** GitHub Actions를 통해 코드 Push 시 빌드, Docker 이미지 생성, EC2 서버 자동 배포를 수행합니다.
+- **Infrastructure:** AWS EC2 내 Nginx를 활용하여 리버스 프록시 환경을 구축했습니다.
+
+---
+
+## 🚀 Key Features
+
+### 1. 루틴 관리 및 시각화 (Routine & Growth)
+- **사용자 맞춤형 루틴:** 자취 연차와 고민 키워드에 기반한 초기 루틴 추천 및 커스텀 루틴 생성 시스템.
+- **루틴 나무 성장 로직:** 당일 루틴 달성률을 계산하여 4단계 성장 프로세스(씨앗 -> 새싹 -> 꽃 -> 열매)를 거치는 데이터 시각화 구현.
+- **월간 루틴 트래커:** JPA 연관 관계를 활용하여 일별/월별 달성률 통계를 산출하고 캘린더 색상 변화로 직관적인 히스토리 제공.
+
+### 2. AI 루틴 추천 서비스 (AI Intelligence)
+- **Google Gemini API 연동:** 사용자의 현재 고민(청결, 식사, 심리 등) 데이터를 분석하여 AI가 최적화된 루틴 리스트를 실시간으로 생성 및 제안.
+- **Prompt Engineering:** 자취생의 라이프스타일에 특화된 답변을 얻기 위한 정교한 프롬프트 설계.
+
+### 3. 자취생 커뮤니티 (Community)
+- **소통의 장:** 자취 꿀팁 및 일상 공유를 위한 게시판 시스템(CRUD).
+- **소셜 인터랙션:** 댓글/대댓글 기능 및 게시글 카테고리 필터링 제공.
+- **사용자 보호 시스템:** 건전한 커뮤니티 유지를 위한 게시글 신고 및 악성 유저 차단(Block) 기능.
+
+---
+
+## 📊 Database Design
+> **ERDCloud를 활용한 데이터 모델링**
+
+[Saraboni 전체 ERD 상세보기](https://www.erdcloud.com/d/fKzAAwTXfPjtWRN5c)
+
+- **정규화된 설계:** 데이터 중복을 최소화하고 무결성을 보장하기 위한 DB 설계 진행.
+- **객체 지향 모델링:** JPA 엔티티와 테이블 간의 효율적인 매핑을 통해 복잡한 비즈니스 로직(나무 성장, 통계 등) 지원.
+
+---
+
+## 💁‍♂️ UMC-9th Spring - 살아보니's BE 팀원
+| <img src="https://github.com/KimSungJun-01.png" width="120"/> | <img src="https://github.com/Hyun-ohohoh.png" width="120"/> | <img src="https://github.com/parksooyong03.png" width="120"/> | <img src="https://github.com/weejee12.png" width="120"/> |
+|:---:|:---:|:---:|:---:|
+|[김성준](https://github.com/KimSungJun-01)|[나현오](https://github.com/Hyun-ohohoh)|[박수용](https://github.com/parksooyong03)|[위지수](https://github.com/weejee12)|
